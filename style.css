@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f4f8;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+.game {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.player-choice, .opponent-choice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emoji {
+  font-size: 100px;
+  margin: 10px;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+}
+
+button.choice {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 50px;
+  margin: 10px;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+button.choice:hover {
+  transform: scale(1.1);
+}
+
+button.rock {
+  background-color: #f9d71c;
+}
+
+button.paper {
+  background-color: #1d9bf0;
+}
+
+button.scissors {
+  background-color: #ff4500;
+}
+
+#result {
+  font-size: 22px;
+  margin-top: 20px;
+  color: #333;
+}
+
+#wins, #timer {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#resetButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#resetButton:hover {
+  background-color: #0056b3;
+}
